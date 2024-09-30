@@ -1,9 +1,12 @@
+import AdviceSlip from "./components/AdviceSlip"
+import FavouriteSlipsList from "./components/FavouriteSlipsList"
+
 function AdviceSection() {
   return (
     <section>
       <h2>Advice Section</h2>
-      <section className="adivce-slip"></section>
-      <section className="favourtite-slips-list"></section>
+      <AdviceSlip />
+      <FavouriteSlipsList />
     </section>
   )
 }

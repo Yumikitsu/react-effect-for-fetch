@@ -46,3 +46,8 @@ img {
 .bg-pink {
   background-color: #f3e5f5;
 }
+
+.users-icon {
+  width: 100px;
+  height: 100px;
+}
